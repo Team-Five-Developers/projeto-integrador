@@ -1,11 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tech</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+<section class="filtros">
+    <h3>Resultado da busca</h3>
+    <form action="#">
+      <label for="ordenar">Ordenar por:</label>
+      <select name="ordenar" id="ordenar">
+        <option value="mais-procurados">Mais procurados</option>
+        <option value="menor-preco">Menor preço</option>
+        <option value="maior-preco">Maior preço</option>
+        <option value="marca">Marca</option>
+      </select>
+      <label for="exibir">Exibir:</label>
+      <select name="exibir" id="exibir">
+        <option value="01">01 por página</option>
+        <option value="02">02 por página</option>
+        <option value="03">03 por página</option>
+      </select>
+      <input type="submit" value="Filtrar">
+    </form>
+  </section>
 <body>
-    
+    <div class="container">
+        <h1>Notebook Gamer Acer Nitro 5</h1>
+        <img src="./img/pag-produtos-4.jpg" width="300" alt="Notebook Gamer Acer">
+        <p>Preço: R$ 5.699,84</p>
+        <p>Condições de pagamento: À vista no PIX</p>
+        <p>Frete: FRETE GRÁTIS</p>
+        <button>COMPRAR</button>
+    </div>
+    <div class="container">
+        <h1>Notebook Acer Intel Core i7</h1>
+        <img src="./img/pag-produtos-3.jpg" width="300" alt="Notebook Acer">
+        <p>Preço: R$ 3.884,05</p>
+        <p>Condições de pagamento: À vista no PIX</p>
+        <p>Frete: FRETE GRÁTIS</p>
+        <button>COMPRAR</button>
+    </div>
+    <div class="container">
+        <h1>Notebook Dell Intel Core i5</h1>
+        <img src="./img/pag-produtos-2.jpg" width="300" alt="Notebook Dell">
+        <p>Preço: R$ 4.399,99</p>
+        <p>Condições de pagamento: À vista no PIX</p>
+        <p>Frete: FRETE GRÁTIS</p>
+        <button>COMPRAR</button>
+    </div>
+    <div class="container">
+        <h1>Notebook Samsung Intel Core i3</h1>
+        <img src="./img/pag-produtos-1.jpg" width="300" alt="Notebook Samsung">
+        <p>Preço: R$ 2.599,99</p>
+        <p>Condições de pagamento: À vista no PIX</p>
+        <p>Frete: FRETE GRÁTIS</p>
+        <button>COMPRAR</button>
+    </div>
 </body>
 </html>
