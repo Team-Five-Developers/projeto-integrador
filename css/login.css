@@ -29,8 +29,8 @@
 /* Estilo geral */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  color: #2c0e0e;
+  background-color: rgb(34, 27, 44);
+  color: #ffffff;
   line-height: 1.6;
 }
 
