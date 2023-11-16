@@ -3,29 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech</title>
+    <title>Produtos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<section class="filtros">
-    <h3>Resultado da busca</h3>
-    <form action="#">
-      <label for="ordenar">Ordenar por:</label>
-      <select name="ordenar" id="ordenar">
-        <option value="mais-procurados">Mais procurados</option>
-        <option value="menor-preco">Menor preço</option>
-        <option value="maior-preco">Maior preço</option>
-        <option value="marca">Marca</option>
-      </select>
-      <label for="exibir">Exibir:</label>
-      <select name="exibir" id="exibir">
-        <option value="01">01 por página</option>
-        <option value="02">02 por página</option>
-        <option value="03">03 por página</option>
-      </select>
-      <input type="submit" value="Filtrar">
-    </form>
-  </section>
 <body>
+    <section class="filtros">
+        <h3>Notebooks</h3>
+        <form action="#" id="filtroForm">
+          <label for="ordenar">Ordenar por:</label>
+          <select name="ordenar" id="ordenar">
+              <option value="Desconto">Desconto</option>
+              <option value="precoAsc">Menor preço</option>
+              <option value="precoDesc">Maior preço</option>
+              <option value="marca">Marca</option>
+          </select>
+          <button type="button" class="ordenar-btn" onclick="filtrarProdutos()">Filtrar</button>
+      </form>
     <div class="container">
         <h1>Notebook Gamer Acer Nitro 5</h1>
         <img src="./img/pag-produtos-4.jpg" width="300" alt="Notebook Gamer Acer">
@@ -59,5 +52,5 @@
         <button>COMPRAR</button>
     </div>
     <button class="next-button">AVANÇAR</button>
-</body>
-</html>
+
+    <script>
