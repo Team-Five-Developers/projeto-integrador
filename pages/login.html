@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/11458786e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="head">
+        <div class="container">
+            <div class="row">
+                <div class="col-1 hamburguer">
+                    <div id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-1 logo">
+                    <a href="/"><img src="../img/logo-grad-elet3.png" /></a>
+                </div>
+                <div class="col-6 align-middle links">
+                    <nav>
+                        <a href="quemSomos.html"><li>Quem somos</li></a>
+                        <a href="servicos.html"><li>Serviços</li></a>
+                        <a href="produtos.html"><li>Produtos</li></a>
+                        <a href="ofertas.html"><li>Ofertas</li></a>
+                        <a href="atendimento.html"><li>Contato</li></a>
+                    </nav>
+                </div>
+                <div class="col-3" id="busca">
+                    <form>
+                        <input type="text" id="txtBusca" class="txtBusca" placeholder="Buscar..." aria-label="Busca" />
+                       
+                    </form>
+                </div>
+                <div class="col-2 login">
+                    <a href="login.html">
+                        <span class="span-2 search"></span>
+                        <i class="fa-solid fa-user"></i>Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- fim /header -->
+
+    <main class="container login">
+        <section class="content first-content"> 
+            <!-- first-column --> 
+            
+            <div class="first-column"> 
+                <h2 class="title title-primary">Bem Vindo!</h2> <br> 
+                <br>
+                
+                <p class="description description-primary"> 
+                    Conecte-se facilmente conosco. Faça o login e aproveite! 
+                </p>
+                <p class="description description-primary">
+                    Entre com suas informações pessoais para acessar sua conta.
+                </p>
+                <button id="signin" class="btn btn-primary">Entrar</button>
+            </div> 
+            <!-- second-column -->
+            <div class="second-column right"> 
+                <h2 class="title title-second">Criar Conta</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="">
+                            <li class="item-social-media">
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+                        </a>
+                        <!-- Adicione o ícone da rede social 'X' -->
+                        <a class="link-social-media" href="">
+                            <li class="item-social-media">
+                                <i class="fab fa-x"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div> <!-- social-media -->
+                <p class="description description-second">
+                    ou use sua rede social para se cadastrar
+                </p>
+                <form id="form-cadastrar" class="form">
+                    <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" required placeholder="Name">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" required placeholder="Email">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" required placeholder="Password">
+                    </label>
+                    <button class="btn btn-second">Cadastrar</button>
+                </form>
+            </div> <!-- second-column -->
+        </section> <!-- first-content -->
+
+        <section class="content second-content">
+            <!-- first-column -->
+            <div class="first-column">
+                <h2 class="title title-primary">Bem Vindo!</h2>
+                <p class="description description-primary">
+                    Insira seus dados pessoais
+                </p>
+                <p class="description description-primary">
+                    e comece a navegar
+                </p>
+                <button id="signup" class="btn btn-primary">Cadastrar</button> 
+            </div>
+            <!-- second-column -->
+            <div class="second-column left"> 
+                <h2 class="title title-second">Entre com sua Conta</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="">
+                            <li class="item-social-media">
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+                        </a>
+                        <!-- Adicione o ícone da rede social 'X' -->
+                        <a class="link-social-media" href="">
+                            <li class="item-social-media">
+                                <i class="fab fa-x"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div> <!-- social-media -->
+                <p class="description description-second">
+                    ou use sua rede social
+                </p>
+                <form class="form">
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Password">
+                    </label>
+                </form>
+                <a class="password" href="#">Esqueceu sua senha?</a>
+            </div> <!-- second-column -->
+        </section> <!-- second-content -->
+    </main> <!-- container -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <h4>Meios de Pagamento</h4>
+              <ul class="payment-methods"> <br>
+                <li>
+                  <a href="#"><i class="fab fa-cc-visa"></i> Visa</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-cc-mastercard"></i> Mastercard</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-barcode"></i> Boleto</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-qrcode"></i> Pix</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h4>Redes Sociais</h4>
+              <ul class="social-media">
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-x"></i> X</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <h4>Contato</h4>
+              <p>
+                Endereço: Rua XXXXXXXXX, III - XXX - XXXXXXX -
+                XX CEP: XXXXX
+              </p>
+              <p>Email: xxxxxxxxxxxxx</p>
+              <p>Telefone: (xx) XXXXX-XXXX</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- fim /footer -->
+
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

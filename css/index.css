@@ -1,0 +1,156 @@
+
+/* Cor branca para o texto e ícone do login */
+.login a, .login i {
+    color: white;
+}
+
+/* Cor branca para as opções de Meios de Pagamento */
+.payment-methods a, .payment-methods i {
+    color: white;
+}
+
+/* Cor branca para as opções de Redes Sociais no footer */
+.social-media a, .social-media i {
+    color: white;
+}
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 82%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .head {
+    background-color: rgb(34, 27, 44);
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  /* Slider */
+  #slider-imagens {
+    margin-top: 20px;
+  }
+  
+  /* Promoções */
+  #promocoes {
+    margin-top: 20px;
+  }
+  
+  .slide-promocao {
+    display: flex;
+  }
+  
+  .product {
+    margin-right: 20px;
+  }
+  
+  /* Produtos recomendados */
+  #produtos-recomendados {
+    margin-top: 20px;
+  }
+  
+  .produtos {
+    display: flex;
+  }
+  
+  .produto {
+    margin-right: 20px;
+  }
+  
+  /* Opiniões */
+  #Opnião dos clientes {
+    margin-top: 20px;
+  }
+  
+  .StarHolder {
+    margin-top: 10px;
+  }
+  
+  /* Marcas */
+  #Trabalhamos com as marcas {
+    margin-top: 20px;
+  }
+  
+  .marcas {
+    display: flex;
+  }
+  
+  .marca {
+    margin-right: 20px;
+  }
+  
+  /* Parceiros */
+  #Nossos Parceiros {
+    margin-top: 20px;
+  }
+  
+  .Tecnologicos {
+    display: flex;
+  }
+  
+  .Tech {
+    margin-right: 20px;
+  }
+
+  input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgb(34, 27, 44);
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+  
+  .payment-methods,
+  .social-media {
+    list-style: none;
+  }
+  
+  .payment-methods li,
+  .social-media li {
+    margin-bottom: 10px;
+  }
+  
+  .payment-methods i,
+  .social-media i {
+    margin-right: 10px;
+  }
+  
