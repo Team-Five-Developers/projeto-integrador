@@ -1,11 +1,300 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="keywords" content="Tech XXXXXXXX" />
+  <meta property="og:title" content="Tech - XXXXXXXXX" />
+  <meta property="og:type" content="website" />
+  <title>Home</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/header.css" />
 </head>
+
 <body>
-    
+  <header class="head">
+    <div class="container">
+      <div class="row">
+        <div class="col-1 hamburguer">
+          <div id="menuToggle">
+          </div>
+        </div>
+
+        <div class="col-1 logo">
+          <a href="#"><img src="img/logo-grad-elet3.png" /></a>
+        </div>
+        <div class="col-6 align-middle links">
+          <nav>
+              <a href="pages/quemSomos.html"><li>Quem somos</li></a>
+              <a href="pages/servicos.html"><li>Serviços</li></a>
+              <a href="pages/produtos.html"><li>Produtos</li></a>
+              <a href="pages/ofertas.html"><li>Ofertas</li></a>
+              <a href="pages/atendimento.html"><li>Contato</li></a>
+          </nav>
+        </div>
+        <div class="col-3" id="busca">
+          <form>
+            <input type="text" id="txtBusca" class="txtBusca" placeholder="Buscar..." aria-label="Busca" />
+          </form>
+        </div>
+        <div class="col-2 login">
+          <a href="pages/login.html"> 
+            <span class="span-2 search"></span>
+            <i class="fa-solid fa-user"></i>Login</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="content">
+      <section id="slider-imagens">
+        <div class="container-slide">
+          <button id="botao-voltar">
+            <img src="img/" alt="seta" />
+          </button>
+          <div class="paginas-slide">
+            <div class="slide on slide-01"></div>
+            <div class="slide slide-02"></div>
+            <div class="slide slide-03"></div>
+          </div>
+          <button id="botao-avancar">
+            <img src="img/" alt="seta" />
+          </button>
+        </div>
+      </section>
+      <section id="promocoes">
+        <h3>Promoções</h3>
+        <div class="container-slide">
+          <button id="botao-voltar-promocao">
+            <img src="img/" alt="seta" />
+          </button>
+
+          <div class="paginas-slide">
+            <div class="slide-promocao on">
+              <div class="product">
+                <img src="img/" alt="Promoção 1" />
+                <div class="promo-details">
+                  <p>XXXXXXXXX</p>
+                  <p>R$ XXXXX (XXXXXXXX)</p>
+                </div>
+              </div>
+
+              <div class="product">
+                <img src="img/" alt="Promoção 1" />
+                <div class="promo-details">
+                  <p>XXXXXXXXXXXXXXXXxXX</p>
+                  <p>R$ XXXX (XXXXXXXXX)</p>
+                </div>
+              </div>
+
+              <div class="product">
+                <img src="img/" alt="Promoção 1" />
+                <div class="promo-details">
+                  <p>XXXXXXXXXXXX</p>
+                  <p>R$ XXXXXXX (XXXXXXXX)</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide-promocao">
+              <div class="product">
+                <img src="img/" alt="Promoção 2" />
+                <div class="promo-details">
+                  <p>XXXXXXXXXXXXXXXXXX</p>
+                  <p>R$ XXXXXX (XXXXXXXXXXX)</p>
+                </div>
+              </div>
+              <div class="product">
+                <img src="img/" alt="Promoção 3" />
+                <div class="promo-details">
+                  <p>XXXXXXXXXXXXXXXXXX</p>
+                  <p>R$ XXXXXXXXX (XXXXXXXXX)</p>
+                </div>
+              </div>
+
+              <div class="product">
+                <img src="img/" alt="Promoção 4" />
+                <div class="promo-details">
+                  <p>XXXXXXXXXXXXXXXXxXX</p>
+                  <p>R$ XXXXXXXXX (XXXXXXXXX)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button id="botao-avancar-promocao">
+            <img src="img/" alt="seta" />
+          </button>
+        </div>
+      </section>
+
+      <section id="produtos-recomendados">
+        <h3>Produtos recomendados</h3>
+        <div class="produtos">
+          <div class="produto">
+            <a class="ancora" href="/pages/produtos.html"><img class="img-"
+                src="img/produtos/" alt="XXXXXXXX" /></a>
+          </div>
+          <div class="produto">
+            <a class="ancora" href="/pages/produtos.html"><img class="img-"
+                src="img/produtos/" alt="XXXXXX" /></a>
+          </div>
+
+          <div class="produto">
+            <a class="ancora" href="/pages/produtos.html"><img class="img-"
+                src="img/produtos/" alt="XXXXXXXX" /></a>
+          </div>
+        </div>
+      </section>
+      <h3>Produtos Bem Avaliados</h3>
+      <img width="20%" src="img/" />
+      <div>
+        <p>XXXXXXXXXXXXXXXXXX</p>
+      </div>
+      <div class="StarHolder">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <section id="Opnião dos clientes">
+        <h3>Opiniões</h3>
+        <div class="content">
+          <img width="20%" src="img/" />
+          <div>
+            <p>
+              XXXXXXXXXXXXXXXXxXXxxxxxxxxxxxxxxx
+              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx!
+            </p>
+          </div>
+          <div class="StarHolder">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </section>
+
+      <section id="Trabalhamos com as marcas">
+        <h3>Trabalhamos com as marcas</h3>
+        <div class="marcas">
+          <div class="marca">
+            <a class="ancora" href="/pages/produtos.html"><img class="img-" src="img/"
+                alt="xxxxxxxxxxx" /></a>
+          </div>
+
+          <div class="marca">
+            <a class="ancora" href="/pages/produtos.html"><img class="img-" src="img/"
+                alt="xxxxxxxxxxx" /></a>
+          </div>
+
+          <div class="marca">
+            <a class="ancora" href="/pages/produtos.html"><img class="img-" src="img/"
+                alt="xxxxxxxxxxx" /></a>
+          </div>
+        </div>
+
+        <div class="marcas">
+          <div class="marca">
+            <a class="ancora" href="/pages/produtos.html"><img class="img-"
+                src="img/" alt="xxxxxxxxxxx" /></a>
+          </div>
+
+          <div class="marca">
+            <a class="ancora" href="/pages/produtos.html"><img class="img-pets" src="img/"
+                alt="xxxxxxxxxxx" /></a>
+          </div>
+
+          <div class="marca">
+            <a class="ancora" href="/pages/produtos.html"><img class="img-" src="img/"
+                alt="xxxxxxxxxxx" /></a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Nossos Parceiros</h3>
+        <div class="Tecnologicos">
+          <div class="Tech">
+            <a href="https://xxxxxxxxxxxxx"><img src="img/"
+                alt="xxxxxxxxxxxxx" /></a>
+          </div>
+
+          <div class="Tech">
+            <a href="https://xxxxxxxxxxx"><img src="img/" alt="" /></a>
+          </div>
+
+          <div class="Tech">
+            <a href="https://xxxxxxxxxxx"><img src="img/"
+                alt="xxxxxxxxxxx" /></a>
+          </div>
+
+
+          <div class="Tech">
+            <a href="https://xxxxxxxxxxx"><img src="img/" alt="Tech XXXXX" /></a>
+          </div>
+
+          <div class="Tech">
+            <a href="https://xxxxxxxxxxx"><img src="img/"
+                alt="Tech XXXX" /></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <h4>Meios de Pagamento</h4>
+          <ul class="payment-methods"> <br
+            <li>
+              <a href="#"><i class="fab fa-cc-visa"></i> Visa</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-cc-mastercard"></i> Mastercard</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-barcode"></i> Boleto</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-barcode"></i> Pix</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h4>Redes Sociais</h4>
+          <ul class="social-media"> <br>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-x"></i> X</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <h4>Contato</h4>
+          <p>
+            Endereço: XXXXXXXXXXXXXXXXxXX, XXX - XXX - XXXXXXXXX -
+            XX CEP: XXXXX-XXX
+          </p>
+          <p>Email: XXXXXXXXXXXXXXXXxXX</p>
+          <p>Telefone: (XX) XXXXX-XXXX</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
