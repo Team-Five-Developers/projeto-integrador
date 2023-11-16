@@ -44,13 +44,41 @@
         <button>COMPRAR</button>
     </div>
     <div class="container">
+      <h1>Notebook Acer Intel Core i5</h1>
+      <img src="./img/pag-produtos-5.jpg" width="300" alt="Notebook Acer">
+      <p>Preço: R$ 3.699,99</p>
+      <p>Condições de pagamento: À vista no PIX</p>
+      <p>Frete: FRETE GRÁTIS</p>
+      <button>COMPRAR</button>
+    </div>
+    <div class="container">
+      <h1>Notebook Lenovo Core i3</h1>
+      <img src="./img/pag-produtos-6.jpg" width="300" alt="Notebook Lenovo">
+      <p>Preço: R$ 1.999,99</p>
+      <p>Condições de pagamento: À vista no PIX</p>
+      <p>Frete: FRETE GRÁTIS</p>
+      <button>COMPRAR</button>
+    </div>
+    <div class="container">
         <h1>Notebook Samsung Intel Core i3</h1>
         <img src="./img/pag-produtos-1.jpg" width="300" alt="Notebook Samsung">
         <p>Preço: R$ 2.599,99</p>
         <p>Condições de pagamento: À vista no PIX</p>
         <p>Frete: FRETE GRÁTIS</p>
         <button>COMPRAR</button>
-    </div>
-    <button class="next-button">AVANÇAR</button>
-
-    <script>
+   </div>
+   <div class="page-selector">
+    <label for="pageSelector">Ir para página:</label>
+    <select id="pageSelector" onchange="goToPage(this.value)">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <!-- Adicione mais opções conforme necessário -->
+    </select>
+  </div>
+  <div class="pagination">
+    <span class="page-number">1</span>
+    <span class="page-number">2</span>
+    <span class="page-number">3</span>
+  </div>
+</html>
