@@ -1,11 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="keywords" content="Tech XXXXXXXX" />
+  <meta property="og:title" content="Tech - XXXXXXXXX" />
+  <meta property="og:type" content="website" />
+  <title>Home</title>
+  <link rel="stylesheet" href="css/index.css" />
 </head>
+
 <body>
-    
+  <header class="head">
+    <div class="container">
+      <div class="row">
+        <div class="col-1 hamburguer">
+          <div id="menuToggle">
+          </div>
+        </div>
+
+        <div class="col-1 logo">
+          <a href="#"><img src="img/logo-grad-elet3.png" /></a>
+        </div>
+        <div class="col-6 align-middle links">
+          <nav>
+              <a href="pages/quemSomos.html"><li>Quem somos</li></a>
+              <a href="pages/servicos.html"><li>Serviços</li></a>
+              <a href="pages/produtos.html"><li>Produtos</li></a>
+              <a href="#Ofertas"><li>Ofertas</li></a>
+              <a href="pages/atendimento.html"><li>Contato</li></a>
+          </nav>
+        </div>
+        <div class="col-3" id="busca">
+          <form>
+            <input type="text" id="txtBusca" class="txtBusca" placeholder="Buscar..." aria-label="Busca" />
+          </form>
+        </div>
+        <div class="col-2 login">
+          <a href="pages/login.html"> 
+            <span class="span-2 search"></span>
+            <i class="fa-solid fa-user"></i>Login</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+ 
+    <section id="promocoes">
+      <h3>Promoções</h3>
+      <div class="image-container">
+        <img src="img/gabinete1.jpg" alt="Promoção 1" />
+        <img src="img/gabinete2.jpg" alt="Promoção 2" />
+        <img src="img/gabinete3.jpg" alt="Promoção 3" />
+      </div>
+    </section>
+
+    <section id="produtos-recomendados">
+      <h3>Produtos Recomendados</h3>
+      <div class="image-container">
+        <img src="img/placa1.jpg" alt="Produto Recomendado 1" />
+        <img src="img/placa2.jpg" alt="Produto Recomendado 2" />
+        <img src="img/placa3.jpg" alt="Produto Recomendado 3" />
+      </div>
+    </section>
+
+    <section id="Ofertas">
+      <h3>Kits completos com desconto</h3>
+      <div class="image-container">
+        <img src="img/kit-pc.jpg" alt="Produto Recomendado 1" />
+        <img src="img/kit-pc2.jpg" alt="Produto Recomendado 2" />
+        <img src="img/kit-pc3.jpg" alt="Produto Recomendado 3" />
+      </div>
+    </section>
+
+    <section id="marcas">
+      <h3>Trabalhamos com as Marcas</h3>
+      <div class="image-container">
+        <img src="img/nvidia1.png" alt="Marca 1" />
+        <img src="img/intel2.png" alt="Marca 2" />
+        <img src="img/amd1.png" alt="Marca 3" />
+      </div>
+    </section>
+
+    <section id="parceiros">
+      <h3>Nossos Parceiros</h3>
+      <div class="image-container">
+        <img src="caminho-para-parceiro1.jpg" alt="Parceiro 1" />
+        <img src="caminho-para-parceiro2.jpg" alt="Parceiro 2" />
+        <img src="caminho-para-parceiro3.jpg" alt="Parceiro 3" />
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <h4>Meios de Pagamento</h4>
+          <ul class="payment-methods"> <br
+            <li>
+              <a href="#"><i class="fab fa-cc-visa"></i> Visa</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-cc-mastercard"></i> Mastercard</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-barcode"></i> Boleto</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-barcode"></i> Pix</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h4>Redes Sociais</h4>
+          <ul class="social-media"> <br>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-x"></i> X</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <h4>Contato</h4>
+          <p>
+            Endereço: XXXXXXXXXXXXXXXXxXX, XXX - XXX - XXXXXXXXX -
+            XX CEP: XXXXX-XXX
+          </p>
+          <p>Email: XXXXXXXXXXXXXXXXxXX</p>
+          <p>Telefone: (XX) XXXXX-XXXX</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="\js\script-slider.js" defer></script>
 </body>
+
 </html>
