@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos</title>
     <link rel="stylesheet" href="../css/produtos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Produtos | Loja</title>
 </head>
 <body>
     <section class="filtros">
-        <h3>Notebooks</h3>
+        <h3>Produtos</h3>
         <form action="#" id="filtroForm">
           <label for="ordenar">Ordenar por:</label>
           <select name="ordenar" id="ordenar">
@@ -22,7 +24,9 @@
     <div class="container">
         <h1>Notebook Gamer Acer Nitro 5</h1>
         <img src="..\img/pag-produtos-4.jpg" width="300" alt="Notebook Gamer Acer">
-        <p>Preço: R$ 5.699,84</p>
+        <p>Preço: R$ 5.699,84
+        <span class="cart-icon" onclick="adicionarAoCarrinho(1)"><i class="fas fa-shopping-cart"></i></span>
+        </p>
         <p>Condições de pagamento: À vista no PIX</p>
         <p>Frete: FRETE GRÁTIS</p>
         <button>COMPRAR</button>
@@ -30,7 +34,9 @@
     <div class="container">
         <h1>Notebook Acer Intel Core i7</h1>
         <img src="\img\pag-produtos-3.jpg" width="300" alt="Notebook Acer">
-        <p>Preço: R$ 3.884,05</p>
+        <p>Preço: R$ 3.884,05
+        <span class="cart-icon" onclick="adicionarAoCarrinho(1)"><i class="fas fa-shopping-cart"></i></span>
+        </p>
         <p>Condições de pagamento: À vista no PIX</p>
         <p>Frete: FRETE GRÁTIS</p>
         <button>COMPRAR</button>
@@ -38,31 +44,39 @@
     <div class="container">
         <h1>Notebook Dell Intel Core i5</h1>
         <img src="\img\pag-produtos-2.jpg" width="300" alt="Notebook Dell">
-        <p>Preço: R$ 4.399,99</p>
+        <p>Preço: R$ 4.399,99
+        <span class="cart-icon" onclick="adicionarAoCarrinho(1)"><i class="fas fa-shopping-cart"></i></span>
+        </p>
         <p>Condições de pagamento: À vista no PIX</p>
         <p>Frete: FRETE GRÁTIS</p>
         <button>COMPRAR</button>
     </div>
     <div class="container">
-      <h1>Notebook Acer Intel Core i5</h1>
-      <img src="/img/pag-produtos-5.jpg" width="300" alt="Notebook Acer">
-      <p>Preço: R$ 3.699,99</p>
-      <p>Condições de pagamento: À vista no PIX</p>
-      <p>Frete: FRETE GRÁTIS</p>
-      <button>COMPRAR</button>
+        <h1>Notebook Acer Intel Core i5</h1>
+        <img src="/img/pag-produtos-5.jpg" width="300" alt="Notebook Acer">
+        <p>Preço: R$ 3.699,99
+        <span class="cart-icon" onclick="adicionarAoCarrinho(1)"><i class="fas fa-shopping-cart"></i></span>
+        </p>
+        <p>Condições de pagamento: À vista no PIX</p>
+        <p>Frete: FRETE GRÁTIS</p>
+        <button>COMPRAR</button>
     </div>
     <div class="container">
-      <h1>Notebook Lenovo Core i3</h1>
-      <img src="/img/pag-produtos-6.jpg" width="300" alt="Notebook Lenovo">
-      <p>Preço: R$ 1.999,99</p>
-      <p>Condições de pagamento: À vista no PIX</p>
-      <p>Frete: FRETE GRÁTIS</p>
-      <button>COMPRAR</button>
+        <h1>Notebook Lenovo Core i3</h1>
+        <img src="/img/pag-produtos-6.jpg" width="300" alt="Notebook Lenovo">
+        <p>Preço: R$ 1.999,99
+        <span class="cart-icon" onclick="adicionarAoCarrinho(1)"><i class="fas fa-shopping-cart"></i></span>
+        </p>
+        <p>Condições de pagamento: À vista no PIX</p>
+        <p>Frete: FRETE GRÁTIS</p>
+        <button>COMPRAR</button>
     </div>
     <div class="container">
         <h1>Notebook Samsung Intel Core i3</h1>
         <img src="/img/pag-produtos-1.jpg" width="300" alt="Notebook Samsung">
-        <p>Preço: R$ 2.599,99</p>
+        <p>Preço: R$ 2.599,99
+        <span class="cart-icon" onclick="adicionarAoCarrinho(1)"><i class="fas fa-shopping-cart"></i></span>
+        </p>
         <p>Condições de pagamento: À vista no PIX</p>
         <p>Frete: FRETE GRÁTIS</p>
         <button>COMPRAR</button>
@@ -80,4 +94,66 @@
     <span class="page-number">2</span>
     <span class="page-number">3</span>
   </div>
+  <script>
+    // Função para adicionar produto ao carrinho
+    function adicionarAoCarrinho(idProduto) {
+        // Lógica para adicionar o produto ao carrinho
+        // Por exemplo, você pode armazenar os produtos em uma variável no JavaScript
+        // e atualizar a exibição do carrinho conforme necessário
+        alert('Produto adicionado ao carrinho!');
+    }
+
+    // Atualize a função filtrarProdutos() conforme necessário
+    function filtrarProdutos() {
+        // Sua lógica de filtragem aqui
+    }
+</script>
+<div class="row">
+  <div class="col-md-6 col-lg-3">
+  <div class="row payment-and-social"></div>
+    <h4>Meios de Pagamento</h4>
+    <ul class="payment-methods"> <br <li="">
+        <a href="#"><i class="fab fa-cc-visa"></i> Visa</a>
+      
+      <li>
+        <a href="#"><i class="fab fa-cc-mastercard"></i> Mastercard</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-barcode"></i> Boleto</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-barcode"></i> Pix</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <h4>Redes Sociais</h4>
+    <ul class="social-media"> <br>
+      <li>
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-x"></i> X</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-12 col-lg-6">
+    <h4>Contato</h4>
+    <p>
+      Endereço: XXXXXXXXXXXXXXXXxXX, XXX - XXX - XXXXXXXXX -
+      XX CEP: XXXXX-XXX
+    </p>
+    <p>Email: XXXXXXXXXXXXXXXXxXX</p>
+    <p>Telefone: (XX) XXXXX-XXXX</p>
+  </div>
+</div>
+</footer>
+<script src="\js\script-slider.js" defer></script>
+</body>
 </html>
