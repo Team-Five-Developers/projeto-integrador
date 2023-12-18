@@ -68,8 +68,21 @@ button {
 }
 
 .pagination {
-    display: inline-block;
-    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.page-number {
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid #2ea1df;
+    border-radius: 2px;
+    cursor: pointer;
+}
+  
+.page-number:hover {
+    background-color: #33afbd;
 }
 
 .page-number {
