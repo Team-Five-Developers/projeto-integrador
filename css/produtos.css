@@ -68,8 +68,21 @@ button {
 }
 
 .pagination {
-    display: inline-block;
-    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.page-number {
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid #2ea1df;
+    border-radius: 2px;
+    cursor: pointer;
+}
+  
+.page-number:hover {
+    background-color: #33afbd;
 }
 
 .page-number {
@@ -93,4 +106,166 @@ button {
     padding: 5px;
     font-size: 14px;
     border-radius: 3px;
+}
+
+
+  
+/* Cor branca para o texto e ícone do login */
+.login a, .login i {
+    color: rgb(34, 27, 44);
+}
+  
+/* Cor branca para as opções de Meios de Pagamento */
+.payment-methods a, .payment-methods i {
+    color: rgb(34, 27, 44);
+}
+  
+/* Cor branca para as opções de Redes Sociais no footer */
+.social-media a, .social-media i {
+    color: rgb(34, 27, 44);
+}
+  
+/* Header */
+.head {
+    background-color: rgb(34, 27, 44);
+    color: #fff;
+    padding: 10px 0;
+}
+    
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+nav {
+    display: flex;
+}
+    
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+    
+/* Slider */
+#slider-imagens {
+    margin-top: 20px;
+}
+    
+/* Promoções */
+#promocoes {
+    margin-top: 20px;
+}
+    
+.slide-promocao {
+    display: flex;
+}
+    
+.product {
+    margin-right: 20px;
+}
+    
+/* Produtos recomendados */
+#produtos-recomendados {
+    margin-top: 20px;
+}
+    
+.produtos {
+    display: flex;
+}
+    
+.produto {
+    margin-right: 20px;
+}
+    
+/* Opiniões */
+#Opnião dos clientes {
+    margin-top: 20px;
+}
+    
+.StarHolder {
+    margin-top: 10px;
+}
+    
+/* Marcas */
+#Trabalhamos com as marcas {
+    margin-top: 20px;
+}
+    
+.marcas {
+    display: flex;
+}
+    
+.marca {
+    margin-right: 20px;
+}
+    
+/* Parceiros */
+#Nossos Parceiros {
+    margin-top: 20px;
+}
+    
+.Tecnologicos {
+    display: flex;
+}
+    
+.Tech {
+    margin-right: 20px;
+}
+  
+input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+}
+    
+/* Footer */
+    
+footer {
+    background-color: rgb(34, 27, 44);
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+    
+.payment-methods,
+.social-media {
+    list-style: none;
+}
+    
+.payment-methods li,
+.social-media li {
+    margin-bottom: 10px;
+}
+    
+.payment-methods i,
+.social-media i {
+    margin-right: 10px;
+}
+    
+/* Adicione um estilo diretamente à classe .cart-icon */
+.cart-icon {
+    cursor: pointer;
+    margin-left: 150px; /* Ajuste conforme necessário */
+    vertical-align: middle; /* Mantém o ícone alinhado verticalmente com o texto */
+}
+
+/* Alinhe verticalmente o texto e o ícone do carrinho */
+.container p {
+    display: flex;
+    align-items: center;
+}
+
+.container-custom {
+    width: 324px;
+    height: 365.16px;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(62, 50, 50, 0.171);
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
 }
